@@ -1,15 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="./src/assets/logo.png">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iton</title>
-</head>
+        <!-- Page's CSS -->
+        <link rel="stylesheet" href="./src/css/home/index.css">
 
-<body>
-    <h1>Bienvenue sur Iton !!</h1>
-</body>
+        <!-- Buttons CSS -->
+        <link rel="stylesheet" href="./src/css/global/buttons.css">
 
+        <!-- Inputs CSS -->
+        <link rel="stylesheet" href="./src/css/global/inputs.css">
+
+        <!-- Posts CSS -->
+        <link rel="stylesheet" href="./src/css/global/posts.css">
+
+        <!-- Titles CSS -->
+        <link rel="stylesheet" href="./src/css/global/titles.css">
+
+        <!-- Bodies CSS -->
+        <link rel="stylesheet" href="./src/css/global/bodies.css">
+
+        <!-- Tooltips CSS -->
+        <link rel="stylesheet" href="./src/css/global/tooltips.css">
+
+        <!-- Navbar CSS -->
+        <link rel="stylesheet" href="./src/css/global/navbar.css">
+
+        <!-- Page's JS -->
+        <script src="./src/scripts/home/index.js"></script>
+
+        <title id="title">Accueil - Iton</title>
+    </head>
+
+    <body class="dark" oncontextmenu="return false" onselect="return false">
+        <div class="custom-loader"></div>
+        <nav>
+            <div class="navbar">
+                <ul id="nav-left">
+                    <li class="nav-button" onclick="home()">Accueil</li>
+                    <li class="nav-button" onclick="redact()">Nouveau</li>
+                </ul>
+                <ul id="nav-right">
+                    <li class="nav-button indisponible" data-tooltip="Indisponible" data-flow="bottom">Mon Compte</li>
+                    <li class="nav-button indisponible" data-tooltip="Indisponible" data-flow="bottom">Déconnexion</li>
+                </ul>
+            </div>
+        </nav>
+        <section class="redact hide" id="newPost">
+            <form>
+                <div class="top">
+                    <button class="cancel blue-button" id="cancel">Annuler</button>
+                    <input type="text" class="title" id="title" placeholder="Votre titre... (max. 100 caractères)" required>
+                    <button class="send green-button indisponible" id="send" data-tooltip="Indisponible" data-flow="bottom" onclick="return false">Publier</button>
+                </div>
+                <textarea name="content" id="content" cols="30" rows="10" placeholder="Votre texte... (max. 2048 caractères)" minlength="50" maxlength="2048"></textarea>
+            </form>
+        </section>
+        
+        <section class="posts" id="posts">
+            <div class="post">
+                <p class="top">
+                    <span class="title">Titre du post</span>
+                    <span class="author">Auteur</span>
+                </p>
+
+                <p class="content">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                
+                    Placeat ut, iste soluta, quos dolorum at ea facilis labore ullam fugit, minima fuga expedita assumenda cum quidem. 
+                
+                    Aut quo natus atque non laborum! Soluta saepe culpa voluptatibus et nihil, rerum consequatur magnam rem a error alias eaque omnis fugiat distinctio incidunt cupiditate quae quisquam doloremque corrupti. 
+                    Unde iusto enim quisquam? Quas facilis quasi nesciunt sint, voluptatem beatae rerum excepturi omnis voluptatibus nihil? 
+                    Atque molestias laborum et nostrum eum qui saepe totam voluptates illo quaerat sit cupiditate odio assumenda quidem dolores impedit fugit accusamus possimus, eligendi voluptatum!
+                
+                
+                    Quia, voluptas odit deleniti facere pariatur, eum beatae architecto reprehenderit consectetur sint suscipit temporibus. Velit ad aliquid exercitationem autem natus iste cumque enim ea maxime accusamus? 
+                    Omnis cum nesciunt, esse eum dolore dolores aliquid debitis beatae? Possimus obcaecati rem a voluptatibus est fugiat officiis eos consequuntur delectus culpa eum odit, numquam illum asperiores neque facere.
+                </p>
+            </div>
+        </section>
+
+        <img class="logo" src="./src/assets/logo.png" />
+
+        <section class="sidebar">
+
+            <div class="sidebar-title"><p>Activités</p></div>
+            <div class="activities sidebar-content">
+                <div class="sidebar-profile"><img src="./src/assets/pps/profil.png"><p>Profil 1</p></div>
+                <div class="sidebar-profile"><img src="./src/assets/pps/profil1.png"><p>Profil 2</p></div>
+                <div class="sidebar-profile"><img src="./src/assets/pps/profil2.png"><p>Profil 3</p></div>
+                <div class="sidebar-profile"><img src="./src/assets/pps/profil3.png"><p>Profil 4</p></div>
+            </div>
+            <div class="sidebar-title"><p>Abonnement</p></div>
+            <div class="subs sidebar-content">
+                <div class="sidebar-profile"><img src="./src/assets/pps/profil.png"><p>Profil 1</p></div>
+                <div class="sidebar-profile"><img src="./src/assets/pps/profil1.png"><p>Profil 2</p></div>
+                <div class="sidebar-profile"><img src="./src/assets/pps/profil2.png"><p>Profil 3</p></div>
+                <div class="sidebar-profile"><img src="./src/assets/pps/profil3.png"><p>Profil 4</p></div>
+                <!-- if full, show this : -->
+                <!-- <div class="showmore">Voir plus</div> -->
+            </div>
+        </section>
+
+        <!-- Page's JS -->
+        <script src="./src/scripts/home/index.js"></script>
+    </body>
 </html>

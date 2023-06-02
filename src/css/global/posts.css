@@ -1,0 +1,26 @@
+.post {
+    margin: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+.post .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post .title {
+    margin: 5px;
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.post .author {
+    margin: 5px;
+    text-align: start;
+}
+
+.post .content {
+    margin: 5px;
+}

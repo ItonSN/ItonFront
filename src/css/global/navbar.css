@@ -1,0 +1,57 @@
+nav{
+    z-index: 500;
+    position: fixed;
+    margin-top: 5px;
+    margin-left: 5%;
+    display: flex;
+    width: 100%;
+}
+
+nav .navbar {
+    display: flex;
+    margin-top: 17px;
+    margin-right: 80px;
+    width: 71%;
+    height: 50px;
+    flex-direction: row;
+    background: var(--start-gradient);
+    background: var(--gradient);
+    border-radius: 35px;
+    float: right;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.aadi-header-collaspe {
+    background:#fff !important;
+}
+
+#nav-left {
+    margin-left: 15px;
+}
+
+#nav-right {
+    margin-right: 15px;
+}
+
+nav .navbar ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav .navbar #nav-right li{
+    margin-left: 10px;
+}
+nav .navbar #nav-left li{
+    margin-right: 10px;
+}
+
+nav li a {
+    color: black;
+}
+
+nav li a:hover {
+    color: black;
+    text-decoration: none;
+}
