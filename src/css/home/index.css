@@ -83,6 +83,7 @@ img.logo{
 .redact .top input.title{
     width: 50%;
     min-width: 100px;
+    outline: none;
 }
 
 .redact #content{
