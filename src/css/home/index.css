@@ -49,6 +49,66 @@ p{
     border-radius: 15px;
 }
 
+
+/* Navbar */
+nav{
+    z-index: 500;
+    position: fixed;
+    margin-top: 5px;
+    margin-left: 5%;
+    display: flex;
+    width: 100%;
+}
+
+nav .navbar {
+    display: flex;
+    margin-top: 17px;
+    margin-right: 80px;
+    width: 71%;
+    height: 50px;
+    flex-direction: row;
+    background: var(--start-gradient);
+    background: var(--gradient);
+    border-radius: 35px;
+    float: right;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.aadi-header-collaspe {
+    background:#fff !important;
+}
+
+#nav-left {
+    margin-left: 15px;
+}
+
+#nav-right {
+    margin-right: 15px;
+}
+
+nav .navbar ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav .navbar #nav-right li{
+    margin-left: 10px;
+}
+nav .navbar #nav-left li{
+    margin-right: 10px;
+}
+
+nav li a {
+    color: black;
+}
+
+nav li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
 /* Logo */
 img.logo{
     position: fixed;
@@ -58,13 +118,24 @@ img.logo{
     margin-top: 5px;
 }
 
+/* Logo inscription connexion*/
+img.logo3{
+    position: fixed;
+    width: 330px;
+    height: 330px;
+    margin-left: 65%;
+    margin-right: 35%;
+    margin-top: 185px;
+}
 
-/* Redact section */
-.redact{
+
+/* staff section */
+.staff{
+    position: absolute;
     margin-top: 110px;
     margin-left: 5%;
     width: 71%;
-    height: 400px;
+    height: 100%;
     flex-direction: row;
     background: var(--start-gradient);
     border-radius: 35px;
@@ -72,38 +143,81 @@ img.logo{
     float: right;
 }
 
-.redact .top{
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
+
+/* reseau section */
+.reseau{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 5%;
+    width: 71%;
+    height: 100%;
+    background: var(--start-gradient);
+    border-radius: 35px;
+    background: var(--gradient);
+    float: right;
 }
 
-.redact .top input.title{
-    width: 50%;
-    min-width: 100px;
-    outline: none;
+/* login section */
+.login{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 23%;
+    margin-right: 77%;
+    width: 369px;
+    height: 50%;
+    background: var(--start-gradient);
+    border-radius: 35px;
+    background: var(--gradient);
+    float: right;
 }
 
-.redact #content{
-    border-radius: 10px;
-    margin-top: 12.5px;
-    margin-left: 12.5%;
-    margin-right: 15%;
-    padding: 5px;
-    width: 75%;
-    height: 300px;
-    min-width: 100px;
-    background: whitesmoke;
-    outline: none;
-    font-size: 15px;
-    resize: none;
+
+
+input {
+margin-left: 10%;
+float: right;
+position: absolute;
+outline: none
 }
 
-.redact #title {
-    border: 1px solid rgba(245, 245, 245, 0.816);
+.login23
+{
+color:#0c0c7e ;
+margin-left : 12%;
 }
+#identifiant {
+    width: 220px;
+    height: 40px;
+    margin-top: 25px;
+    background: rgba(255, 255, 255, 0.5);
+outline: none
+
+}
+#mdp {
+    width: 220px;
+    height: 40px;
+    margin-top: 55px;
+    background: rgba(255, 255, 255, 0.5);
+outline: none
+}
+#mdpo {
+    margin-left : 35%;
+    margin-top: 99px;
+    color: #0054ff;
+}
+
+
+#envoyer {
+    width: 120px;
+    height: 40px;
+    margin-top: 91px;
+	margin-left : 50%;
+    background: rgba(255, 255, 255, 0.5);
+
+}
+
+
+
 
 
 /* Posts section */
