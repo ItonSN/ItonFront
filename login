@@ -58,4 +58,5 @@
 					<p class="noaccounte" id="noaccounte"><a href="registration">vous avez pas de compte ?</a></p><br />
 				    <input type="submit"class="envoyer2" id="envoyer2"  value="envoyer" /></input>
                 </p></form>
+	</body>
 </html>
