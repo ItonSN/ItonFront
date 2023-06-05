@@ -142,6 +142,19 @@ img.logo3{
     float: right;
 }
 
+.login2{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 23%;
+    margin-right: 77%;
+    width: 369px;
+    height: 30%;
+    background: var(--start-gradient);
+    border-radius: 35px;
+    background: var(--gradient);
+    float: right;
+}
+
 
 
 input {
@@ -161,9 +174,19 @@ margin-left : 12%;
     height: 40px;
     margin-top: 25px;
     background: rgba(255, 255, 255, 0.5);
-outline: none
+outline: none*
 
 }
+
+#email{
+    width: 220px;
+    height: 40px;
+    margin-top: 25px;
+    background: rgba(255, 255, 255, 0.5);
+outline: none 
+}
+
+
 #mdp {
     width: 220px;
     height: 40px;
@@ -183,18 +206,22 @@ outline: none
     color: #0054ff;
 }
 
-#envoyer {
-    width: 120px;
-    height: 40px;
-    margin-top: 91px;
-	margin-left : 50%;
-    background: rgba(255, 255, 255, 0.5);
-
+#retour
+ {
+    margin-top: 99px;
+    color: #0054ff;
 }
 
 
+#envoyer {
+    width: 120px;
+    height: 40px;
+	margin-left : 50%;
+	margin-top : 26.5%;
+    background: rgba(255, 255, 255, 0.5);
+border: 1.5px solid rgb(32, 146, 210);
 
-
+}
 /* Redact section */
 .redact{
     margin-top: 110px;
