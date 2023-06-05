@@ -46,7 +46,7 @@
                 </ul>
             </div>
         </nav>
-        <img class="logo3" src="./Accueil - Iton_files/logo.png" />
+        <img class="logo3" src="./src/assets/logo.png" />
 
     <section class="login" id="login">
 				<p class="top"><br /><div class="login23">Reconnectez vous :<div><form="" method="posts"
@@ -54,7 +54,7 @@
 				<br /><form>
                     <input type="text" name="identifiant" class="identifiant" id="identifiant" placeholder="  identifiant" required autofocus ></input><br />
                     <input type="password" name="mot de passe" class="mdp" id="mdp" placeholder="  votre mot de passe" required></input>
-					<p class="mdpo" id="mdpo"><a href="">mots de passe oublié </a></p><br />
+					<p class="mdpo" id="mdpo"><a href="./mdpo">mots de passe oublié </a></p><br />
 					<p class="noaccounte" id="noaccounte"><a href="registration">vous avez pas de compte ?</a></p><br />
 				    <input type="submit"class="envoyer" id="envoyer"  value="envoyer" /></input>
                 </p></form>
