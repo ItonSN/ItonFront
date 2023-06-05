@@ -128,35 +128,6 @@ img.logo3{
     margin-top: 185px;
 }
 
-
-/* staff section */
-.staff{
-    position: absolute;
-    margin-top: 110px;
-    margin-left: 5%;
-    width: 71%;
-    height: 100%;
-    flex-direction: row;
-    background: var(--start-gradient);
-    border-radius: 35px;
-    background: var(--gradient);
-    float: right;
-}
-
-
-/* reseau section */
-.reseau{
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 5%;
-    width: 71%;
-    height: 100%;
-    background: var(--start-gradient);
-    border-radius: 35px;
-    background: var(--gradient);
-    float: right;
-}
-
 /* login section */
 .login{
     position: absolute;
@@ -206,6 +177,11 @@ outline: none
     color: #0054ff;
 }
 
+#noaccounte
+ {
+    margin-left : 35%;
+    color: #0054ff;
+}
 
 #envoyer {
     width: 120px;
