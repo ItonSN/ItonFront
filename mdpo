@@ -1,0 +1,61 @@
+    <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="./src/assets/logo.png">
+
+        <!-- Page's CSS -->
+        <link rel="stylesheet" href="./src/css/home/index.css">
+
+        <!-- Buttons CSS -->
+        <link rel="stylesheet" href="./src/css/global/buttons.css">
+
+        <!-- Inputs CSS -->
+        <link rel="stylesheet" href="./src/css/global/inputs.css">
+
+        <!-- Posts CSS -->
+        <link rel="stylesheet" href="./src/css/global/posts.css">
+
+        <!-- Titles CSS -->
+        <link rel="stylesheet" href="./src/css/global/titles.css">
+
+        <!-- Bodies CSS -->
+        <link rel="stylesheet" href="./src/css/global/bodies.css">
+
+        <!-- Tooltips CSS -->
+        <link rel="stylesheet" href="./src/css/global/tooltips.css">
+
+        <!-- Page's JS -->
+        <script src="./src/scripts/home/index.js"></script>
+
+        <title id="title">Accueil - Iton</title>
+    </head>
+    
+    <body class="dark" oncontextmenu="return false" onselect="return false">
+		 <nav>
+            <div class="navbar">
+                <ul id="nav-left">
+                    <li class="nav-button" onclick="home()">Accueil</li>
+                    <li class="nav-button" onclick="redact()">Nouveau</li>
+                </ul>
+                <ul id="nav-right">
+					<li class="nav-button" data-flow="bottom"><link href="./login">connexion</li>
+					<li class="nav-button" data-flow="bottom"><link href="./registration">inscription</li>
+                </ul>
+            </div>
+        </nav>
+        <img class="logo3" src="./Accueil - Iton_files/logo.png" />
+
+    <section class="login2" id="login2">
+				<p class="top"><br /><div class="login23">mots de passe oublié :<div><form="" method="posts"
+               
+				<br /><form>
+                    <input type="email" name="identifiant" class="email" id="email" placeholder="  votre compte e-mail" required autofocus ></input><br />
+					
+				    <input type="submit"class="envoyer" id="envoyer"  value="envoyer" /></input>
+					
+					<p class="retour" id="retour"><button class="cancel blue-button" id="cancel"><a href="./login">retour</a></button></p>
+                </p></form>
+</html>
