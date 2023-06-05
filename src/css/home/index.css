@@ -195,6 +195,52 @@ outline: none
 
 
 
+/* Redact section */
+.redact{
+    margin-top: 110px;
+    margin-left: 5%;
+    width: 71%;
+    height: 400px;
+    flex-direction: row;
+    background: var(--start-gradient);
+    border-radius: 35px;
+    background: var(--gradient);
+    float: right;
+}
+
+.redact .top{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redact .top input.title{
+    width: 50%;
+    min-width: 100px;
+    outline: none;
+}
+
+.redact #content{
+    border-radius: 10px;
+    margin-top: 12.5px;
+    margin-left: 12.5%;
+    margin-right: 15%;
+    padding: 5px;
+    width: 75%;
+    height: 300px;
+    min-width: 100px;
+    background: whitesmoke;
+    outline: none;
+    font-size: 15px;
+    resize: none;
+}
+
+.redact #title {
+    border: 1px solid rgba(245, 245, 245, 0.816);
+}
+
 
 /* Posts section */
 .posts{
