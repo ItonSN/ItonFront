@@ -222,6 +222,16 @@ outline: none
 border: 1.5px solid rgb(32, 146, 210);
 
 }
+
+#envoyer2 {
+    width: 120px;
+    height: 40px;
+	margin-left : 50%;
+	margin-top : 10%;
+    background: rgba(255, 255, 255, 0.5);
+border: 1.5px solid rgb(32, 146, 210);
+
+}
 /* Redact section */
 .redact{
     margin-top: 110px;
