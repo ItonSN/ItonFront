@@ -58,4 +58,5 @@
 					
 					<p class="retour" id="retour"><button class="cancel blue-button" id="cancel"><a href="./login">retour</a></button></p>
                 </p></form>
+	</body>
 </html>
