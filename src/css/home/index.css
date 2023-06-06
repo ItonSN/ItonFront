@@ -49,6 +49,66 @@ p{
     border-radius: 15px;
 }
 
+
+/* Navbar */
+nav{
+    z-index: 500;
+    position: fixed;
+    margin-top: 5px;
+    margin-left: 5%;
+    display: flex;
+    width: 100%;
+}
+
+nav .navbar {
+    display: flex;
+    margin-top: 17px;
+    margin-right: 80px;
+    width: 71%;
+    height: 50px;
+    flex-direction: row;
+    background: var(--start-gradient);
+    background: var(--gradient);
+    border-radius: 35px;
+    float: right;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.aadi-header-collaspe {
+    background:#fff !important;
+}
+
+#nav-left {
+    margin-left: 15px;
+}
+
+#nav-right {
+    margin-right: 15px;
+}
+
+nav .navbar ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav .navbar #nav-right li{
+    margin-left: 10px;
+}
+nav .navbar #nav-left li{
+    margin-right: 10px;
+}
+
+nav li a {
+    color: black;
+}
+
+nav li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
 /* Logo */
 img.logo{
     position: fixed;
@@ -58,7 +118,133 @@ img.logo{
     margin-top: 5px;
 }
 
+/* Logo inscription connexion*/
+img.logo3{
+    position: fixed;
+    width: 330px;
+    height: 330px;
+    margin-left: 65%;
+    margin-right: 35%;
+    margin-top: 185px;
+}
 
+/* login section */
+.login{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 23%;
+    margin-right: 77%;
+    width: 369px;
+    height: 50%;
+    background: var(--start-gradient);
+    border-radius: 35px;
+    background: var(--gradient);
+    float: right;
+}
+
+.login2{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 23%;
+    margin-right: 77%;
+    width: 369px;
+    height: 30%;
+    background: var(--start-gradient);
+    border-radius: 35px;
+    background: var(--gradient);
+    float: right;
+}
+
+
+
+input {
+
+float: right;
+position: absolute;
+outline: none
+}
+
+.login23
+{
+color:#0c0c7e ;
+margin-left : 12%;
+}
+#identifiant {
+    width: 220px;
+    height: 40px;
+    margin-top: 25px;
+
+    background: rgba(255, 255, 255, 0.5);
+border: 1.5px solid rgb(53,244,124);
+outline: none;
+
+}
+
+#email{
+    width: 220px;
+    height: 40px;
+    margin-top: 25px;
+    background: rgba(255, 255, 255, 0.5);
+border: 1.5px solid rgb(53,244,124);
+outline: none ;
+}
+
+
+#mdp {
+    width: 220px;
+    height: 40px;
+    margin-top: 55px;
+    background: rgba(255, 255, 255, 0.5);
+border: 1.5px solid rgb(53,244,124);
+outline: none;
+}
+#mdpo {
+    margin-left : 35%;
+    margin-top: 99px;
+    color: #0054ff;
+}
+
+#noaccounte
+ {
+    margin-left : 35%;
+    color: #0054ff;
+    margin-top: 99px;
+}
+
+#retour
+ {
+    margin-top: 99px;
+    color: #0054ff;
+}
+
+
+#envoyer {
+    width: 120px;
+    height: 40px;
+	margin-left : 50%;
+	margin-top : 26.5%;
+    background: rgba(255, 255, 255, 0.5);
+border: 1.5px solid rgb(32, 146, 210);
+
+}
+
+#envoyer2 {
+    width: 120px;
+    height: 40px;
+	margin-left : 50%;
+	margin-top : 10%;
+    background: rgba(255, 255, 255, 0.5);
+border: 1.5px solid rgb(32, 146, 210);
+
+}
+#envoyer3 {
+    width: 120px;
+    height: 40px;
+	margin-left : 50%;
+    background: rgba(255, 255, 255, 0.5);
+border: 1.5px solid rgb(32, 146, 210);
+
+}
 /* Redact section */
 .redact{
     margin-top: 110px;
@@ -170,3 +356,220 @@ img.logo{
 .showmore:hover{
     color: blue;
 }
+
+
+
+
+
+/* registration section */
+.registration {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 23%;
+    margin-right: 77%;
+    width: 35%;
+    height: 890px;
+    background: var(--start-gradient);
+    border-radius: 35px;
+    background: var(--gradient);
+    float: right;
+}
+
+#registrationpseudo {
+    width: 220px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background: rgba(255, 255, 255, 0.5);
+border: 1.5px solid rgb(53,244,124);
+outline: none
+}
+#registrationemail{
+    width: 220px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 5px;
+    background: rgba(255, 255, 255, 0.5);
+border: 1.5px solid rgb(53,244,124);
+outline: none
+}
+#registrationdate2{
+    width: 220px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background: rgba(255, 255, 255, 0.5);
+border: 1.5px solid rgb(53,244,124);
+outline: none
+}
+#registrationnom {
+    width: 220px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 5px;
+    background: rgba(255, 255, 255, 0.5);
+border: 1.5px solid rgb(53,244,124);
+outline: none
+}
+#registrationprenom {
+    width: 220px;
+    height: 40px;
+    margin-top: 90px;
+    margin-left: 5px;
+    background: rgba(255, 255, 255, 0.5);
+border: 1.5px solid rgb(53,244,124);
+outline: none ;
+}
+
+#registrationpays2
+{
+border: 1.5px solid rgb(53,244,124);
+outline: none
+}
+
+#registrationtel1{
+    width: 220px;
+    height: 40px;
+    margin-top: 140px;
+    margin-left: 5px;
+    background: rgba(255, 255, 255, 0.5);
+border: 1.5px solid rgb(53,244,124);
+outline: none
+}
+#registrationemailpublic {
+    width: 220px;
+    height: 40px;
+    margin-top: 190px;
+    margin-left: 5px;
+    background: rgba(255, 255, 255, 0.5);
+border: 1.5px solid rgb(53,244,124);
+outline: none
+}
+
+#registrationmdp {
+    width: 220px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background: rgba(255, 255, 255, 0.5);
+border: 1.5px solid rgb(53,244,124);
+outline: none
+}
+#registrationmdp1 {
+    width: 220px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 5px;
+    background: rgba(255, 255, 255, 0.5);
+border: 1.5px solid rgb(53,244,124);
+outline: none
+}
+
+
+#registrationdate1{
+
+    margin-top: 90px;
+    color: #0054ff;
+}
+#accounte{
+    margin-left : 35%;
+    margin-top: 10px;
+    color: #0054ff;
+}
+
+#registrationpays{
+    margin-left : 35%;
+    margin-top: 99px;
+    color: #0054ff;
+}
+
+.fieldset1 {
+background: rgba(255, 255, 255, 0.35);
+border: 1.5px solid rgb(32, 146, 210);
+    width: 380px;
+    height: 220px;
+    border-radius: 17px;
+}
+.fieldset2 {
+    margin-top: 20px;
+background: rgba(255, 255, 255, 0.35);
+border: 1.5px solid rgb(32, 146, 210);
+    width: 380px;
+    height: 274px;
+    border-radius: 17px;
+}
+.fieldset3 {
+background: rgba(255, 255, 255, 0.35);
+border: 1.5px solid rgb(32, 146, 210);
+    width: 380px;
+    height: 145px;
+    border-radius: 17px;
+margin-top : 10px;
+}
+.fieldset4 {
+background: rgba(255, 255, 255, 0.35);
+border: 1.5px solid rgb(32, 146, 210);
+    width: 380px;
+    height: 100px;
+    border-radius: 17px;
+margin-top : 10px;
+}
+
+legend {
+      background: rgba(255, 255, 255, 0.7);
+	    border: 1px solid red;
+margin-left : 5px;
+
+height: 25px;
+    border-radius: 10px;
+}
+
+#legend1 {
+width: 160px;
+}
+
+#legend2 {
+width: 215px;
+}
+
+#legend3 {
+width: 90px;
+}
+
+#legend4 {
+width: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+.login {
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 5%;
+    width: 50%;
+    height: auto%;
+    flex-direction: row;
+    background: var(--start-gradient);
+    border-radius: 35px;
+    background: var(--gradient);
+    float: right;
+}
+
+
+.login .title {
+    margin: 200px;
+    margin-left: 60%;
+}
+
+.login .content {
+    margin: 5px;
+}
+
+

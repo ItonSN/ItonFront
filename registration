@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="./src/assets/logo.png">
+
+        <!-- Page's CSS -->
+        <link rel="stylesheet" href="./src/css/home/index.css">
+
+        <!-- Buttons CSS -->
+        <link rel="stylesheet" href="./src/css/global/buttons.css">
+
+        <!-- Inputs CSS -->
+        <link rel="stylesheet" href="./src/css/global/inputs.css">
+
+        <!-- Posts CSS -->
+        <link rel="stylesheet" href="./src/css/global/posts.css">
+
+        <!-- Titles CSS -->
+        <link rel="stylesheet" href="./src/css/global/titles.css">
+
+        <!-- Bodies CSS -->
+        <link rel="stylesheet" href="./src/css/global/bodies.css">
+
+        <!-- Tooltips CSS -->
+        <link rel="stylesheet" href="./src/css/global/tooltips.css">
+
+        <!-- Navbar CSS -->
+        <link rel="stylesheet" href="./src/css/global/navbar.css">
+
+        <!-- Page's JS -->
+        <script src="./src/scripts/home/index.js"></script>
+
+        <title id="title">Accueil - Iton</title>
+    </head>
+
+    <body class="dark" oncontextmenu="return false" onselect="return false">
+		 <nav>
+            <div class="navbar">
+                <ul id="nav-left">
+                    <li class="nav-button" onclick="home()">Accueil</li>
+                    <li class="nav-button" onclick="redact()">Nouveau</li>
+                </ul>
+                <ul id="nav-right">
+					<li class="nav-button" data-flow="bottom"><link href="./login">connexion</li>
+					<li class="nav-button" data-flow="bottom"><link href="./registration">inscription</li>
+                </ul>
+            </div>
+        </nav>
+        <img class="logo3" src="./src/assets/logo.png" />
+
+    <section class="registration" id="registration">
+				<p class="top"><br /><div class="login23"><h3>inscrivez vous :</h3><div><form="" method="posts"
+               
+				<br /><form>
+				<br />
+					<fieldset class="fieldset1" id="fieldset1">
+						<legend class="legend1" id="legend1">   information obligatoire </legend>
+						<input type="text" name="pseudo" class="registrationpseudo" id="registrationpseudo" placeholder="  pseudo" required autofocus ></input><br />
+						<input type="email" name="email" class="registrationemail" id="registrationemail" placeholder="  votre adresse mail" required></input>
+						<label for="start"><p class="registrationdate1" id="registrationdate1">Date de naissance : </p></label>
+						<input type="date" name="date de naissance" class="registrationdate2" id="registrationdate2" required></input>
+					</fieldset>
+					
+					
+					
+					<fieldset class="fieldset2" id="fieldset2">
+						<legend class="legend2" id="legend2">   information d'adresse (facultatif) </legend>
+						
+
+							<input type="text" name="nom" class="registrationnom" id="registrationnom" placeholder="  votre Nom de famille (facultatif)" ></input>
+							<input type="text" name="prenom" class="registrationprenom" id="registrationprenom" placeholder="  votre Préom (facultatif)" ></input>
+							<input type="tel" name="telephone" class="registrationtel" id="registrationtel1" placeholder="  numéro de telephone (facultatif)"   ></input>
+							<input type="email" name="email public" class="registrationemailpublic" id="registrationemailpublic" placeholder="  compte mail public (facultatif)"   ></input>
+														<label for="pays" class="registrationpays">Dans quel pays francophone habitez-vous ? (facultatif)</label><br /><select
+							<select name="pays" class="registrationpays2" id="registrationpays2">
+								<option value="  ">(non définis)</option>
+								<option value="france métropolitaine">france métropolitaine</option>
+								<option value="france Guadeloupe">france Guadeloupe</option>
+								<option value="france Martinique">france Martinique</option>
+								<option value="france guyane">france guyane</option>
+								<option value="france La reunion">france La réunion</option>
+								<option value="france Saint-Pierre-et-Miquelon">france Saint-Pierre-et-Miquelon</option>
+								<option value="france Mayotte">france Mayotte</option>
+								<option value="france Saint-Barthelemy">france Saint-Barthélemy</option>
+								<option value="france Saint-Martin">france Saint-Martin</option>
+								<option value="france Wallis-et-Futuna">france Wallis-et-Futuna</option>
+								<option value="france Polynesie française">france Polynésie française</option>
+								<option value="france Nouvelle-Caledonie">france Nouvelle-Calédonie</option>
+								<option value="france Terres australes et antarctiques françaises">france Terres australes et antarctiques françaises</option>
+								<option value="france Clipperton">france Clipperton</option>
+								<option value="suisse">suisse</option>
+								<option value="belgique">belgique</option>
+								<option value="canada (quebec)">canada (québec)</option>
+								<option value="canada ">canada </option>
+								<option value="Vatican">Vatican</option>
+								<option value="maurice">Ile Maurice</option>
+								<option value="Liban">Liban</option>
+								<option value="Burindi">Burindi</option>
+								<option value="Cameroun">Cameroun</option>
+								<option value="canada(hors quebec">Canada (hors Québec)</option>
+								<option value="RC (republique centrafricaine)">RC (republique centrafricaine)</option>
+								<option value="Comores">Comores</option>
+								<option value="Djibouti">Djibouti</option>
+								<option value="Guinee equatoriale">Guinée équatoriale</option>
+								<option value="Haiti">Haïti</option>
+								<option value="luxembourg">Luxembourg</option>
+								<option value="Madagascar">Madagascar</option>
+								<option value="Rwanda">Rwanda</option>
+								<option value="Seychelles">Seychelles</option>
+								<option value="Tchad">Tchad</option>
+								<option value="Begin">Bégin</option>
+								<option value="Burkina Faso">Burkina Faso</option>
+								<option value="Republique du congo">République du Congo</option>
+								<option value="Republique democratique du congo">République Démocratique du Congo</option>
+								<option value="Cote d'Ivoire">Côte d'Ivoire</option>
+								<option value="Gabon">Gabon</option>
+								<option value="Guinee">Guinée</option>
+								<option value="Mali">Mali</option>
+								<option value="Monaco">Monaco</option>
+								<option value="Niger">Niger</option>
+								<option value="senegal">Sénégal</option>
+								<option value="Togo">Togo</option>
+								<option value="Italie">Italie</option>
+								
+							</select>
+						</fieldset>
+						
+						
+						
+						<fieldset class="fieldset3" id="fieldset3">
+							<legend class="legend3" id="legend3">   mot de passe </legend>	
+							<input type="password" name="mot de passe" class="registrationmdp" id="registrationmdp" placeholder="  mots de passe" required  ></input>
+							<input type="password" name="mot de passe" class="registrationmdp1" id="registrationmdp1" placeholder="  comfirmation du mots de passe" required  ></input>
+						</fieldset>
+						
+						
+						
+						<fieldset class="fieldset4" id="fieldset4">
+							<p class="accounte" id="accounte"><a href="./iton login.html">vous avez déja un compte ?</a></p><br />
+							<input type="submit"class="envoyer3" id="envoyer3"  value="créé votre compte" /></input>
+						</fieldset >
+                </p></form>
+			</body>
+</html>
