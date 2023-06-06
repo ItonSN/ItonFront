@@ -41,8 +41,8 @@
                     <li class="nav-button" onclick="redact()">Nouveau</li>
                 </ul>
                 <ul id="nav-right">
-                    <li class="nav-button" data-flow="bottom"><link href="./login">connexion</li>
-		    <li class="nav-button" data-flow="bottom"><link href="./registration">inscription</li>
+					<li class="nav-button" data-flow="bottom"><link href="./login">connexion</li>
+					<li class="nav-button" data-flow="bottom"><link href="./registration">inscription</li>
                 </ul>
             </div>
         </nav>
@@ -52,11 +52,12 @@
 				<p class="top"><br /><div class="login23">Reconnectez vous :<div><form="" method="posts"
                
 				<br /><form>
-                    <input type="email" name="email" class="identifiant" id="identifiant" placeholder="  adresse e-mail" required autofocus ></input><br />
+                    <input type="text" name="identifiant" class="identifiant" id="identifiant" placeholder="  identifiant" required autofocus ></input><br />
                     <input type="password" name="mot de passe" class="mdp" id="mdp" placeholder="  votre mot de passe" required></input>
-					<p class="mdpo" id="mdpo"><a href="./mdpo">mots de passe oublié </a></p><br />
-					<p class="noaccounte" id="noaccounte"><a href="registration">vous avez pas de compte ?</a></p><br />
+					<p class="mdpo" id="mdpo"><a   href="./iton mdpo.html">mots de passe oublié </a></p><br />
+					<p><a class="noaccounte" id="noaccounte" href="./iton registration.html">vous avez pas de compte ?</a></p><br />
+				    <!-- <input type="submit"class="envoyer2" id="envoyer2s"  value="envoyer" /></input> -->
 				    <input type="submit"class="envoyer2" id="envoyer2"  value="envoyer" /></input>
                 </p></form>
-	</body>
+				</body>
 </html>
