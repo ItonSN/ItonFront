@@ -33,7 +33,7 @@
         <title id="title">Iton Social Network</title>
     </head>
 
-    <body class="dark" oncontextmenu="return false" onselect="return false">
+        <body class="dark" oncontextmenu="return false" onselect="return false">
 		 <nav>
             <div class="navbar">
                 <ul id="nav-left">
