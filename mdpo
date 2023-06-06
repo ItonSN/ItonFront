@@ -33,7 +33,7 @@
         <title id="title">Accueil - Iton</title>
     </head>
     
-    <body class="dark" oncontextmenu="return false" onselect="return false">
+        <body class="dark" oncontextmenu="return false" onselect="return false">
 		 <nav>
             <div class="navbar">
                 <ul id="nav-left">
@@ -56,7 +56,7 @@
 					
 				    <input type="submit"class="envoyer" id="envoyer"  value="envoyer" /></input>
 					
-					<p class="retour" id="retour"><button class="cancel blue-button" id="cancel"><a href="./login">retour</a></button></p>
+					<p class="retour" id="retour"><button class="cancel blue-button" id="cancel"><a href="./iton login.html">retour</a></button></p>
                 </p></form>
-	</body>
+					</body>
 </html>
