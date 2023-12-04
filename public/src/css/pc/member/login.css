@@ -11,6 +11,14 @@
   font-family: 'Comic Sans MS';
 }
 
+body.dark {
+  background-color: #000047;
+}
+
+body.light {
+  background-color: #d5ecfa;
+}
+
 main {
   width: 80%;
   height: 80%;
@@ -65,7 +73,7 @@ input {
   border: solid 2px #36E864 /* #6feaa3 */;
   border-radius: 15px;
 
-  background: #F7F7F7;
+  background: rgba(239, 239, 239, .6);
 
   color: black;
 
