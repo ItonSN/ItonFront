@@ -8,80 +8,87 @@
 }
 
 * {
-    font-family: 'Comic Sans MS';
+  font-family: 'Comic Sans MS';
 }
-
 
 main {
-    width: 80%;
-    height: 80%;
+  width: 80%;
+  height: 80%;
 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 
-#logo {
-    width: 450px;
-    height: 450px;
-}
+.separation {
+  height: 1px;
+  width: 95%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 
-#content {
-    width: 45%;
-    height: 90%;
-
-    padding: 50px;
-
-    border-radius: 25px;
-    
-    background: var(--gradient);
+  background: linear-gradient(90deg, rgba(243,243,243,1) 0%, rgba(215,215,215,1) 100%);
 }
 
 form {
-    width: 100%;
-    height: 100%;
+  width: 45%;
+  height: 90%;
 
-    padding: 20px;
+  padding: 15px;
 
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  background: var(--gradient);
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 
-    background: var(--transparent-bg);
-
-    border: solid 1px var(--border);
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 #title {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    color: #192785;
-    font-size: 18px;
-}
-
-label {
-    margin-top: 5px;
-
-    color: whitesmoke;
+  margin-bottom: 0;
+  color: #1F2F8C;
+  font-size: 20px;
 }
 
 input {
-    width: 80%;
-    height: 40px;
+  width: 80%;
+  height: 40px;
 
-    margin: 5px;
+  margin: 7.5px;
 
-    background: #d1ede8;
+  border: solid 2px #36E864 /* #6feaa3 */;
+  border-radius: 15px;
 
-    border: solid 2px #6feaa3;
-    border-radius: 15px;
+  background: #F7F7F7;
+
+  color: black;
+
+  outline: none;
+}
+
+::placeholder {
+  color: #232323;
+}
+
+
+
+#login-b {
+  border: solid 2px #229cc8;
+  cursor: pointer;
+}
+
+a {
+  margin-bottom: 5px;
+
+  font-size: 18px;
+}
+
+img {
+  height: 90%;
 }

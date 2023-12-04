@@ -12,19 +12,24 @@
 
 <body>
     <main>
-        <div id="content">
-            <form action="" method="post">
-                <p id="title">Connectez-vous :</p>
-                
-                <label for="email">Adresse mail</label>
-                <input type="email" name="email" id="email-i" placeholder="Adresse mail" required>
+      <form action="" method="post">
+          <p id="title">Connectez-vous :</p>
 
-                <label for="password">Mot-de-passe</label>
-                <input type="password" name="password" id="password-i" placeholder="Mot-de-passe" required>
+          <div class="separation"></div>
 
-                <input type="submit" name="login" id="login-b" value="Connexion">
-            </form>
-        </div>
+          <!-- <label for="email">Adresse mail</label> -->
+          <input type="email" name="email" id="email-i" placeholder="Adresse mail" required>
+
+          <!-- <label for="password">Mot-de-passe</label> -->
+          <input type="password" name="password" id="password-i" placeholder="Mot-de-passe" required>
+
+          <input type="submit" name="login" id="login-b" value="Connexion">
+
+          <div class="separation"></div>
+
+          <a href="/pass_forgot">Mot-de-passe oublié ?</a>
+          <a href="/register">Inscription</a>
+        </form>
 
         <img src="../../src/assets/logo.png" alt="Logo d'Iton" id="logo">
     </main>
