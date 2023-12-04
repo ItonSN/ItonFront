@@ -89,6 +89,11 @@ input {
 #login-b {
   border: solid 2px #229cc8;
   cursor: pointer;
+  transition: .5s;
+}
+
+#login-b:hover {
+  background: rgb(239, 239, 239);
 }
 
 a {
