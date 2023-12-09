@@ -28,8 +28,8 @@ main {
 .separation {
   height: 1px;
   width: 95%;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
   background: linear-gradient(90deg, rgba(243,243,243,1) 0%, rgba(215,215,215,1) 100%);
 }
@@ -72,11 +72,15 @@ input {
   outline: none;
 }
 
+label {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: #1F2F8C;
+}
+
 ::placeholder {
   color: #232323;
 }
-
-
 
 #login-b {
   border: solid 2px #229cc8;
@@ -89,6 +93,7 @@ input {
 }
 
 a {
+  margin-top: 5px;
   margin-bottom: 5px;
 
   font-size: 18px;

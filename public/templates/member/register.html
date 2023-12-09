@@ -1,40 +1,34 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Inscription - ItonSN</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../../src/css/pc/member/login.css">
-
-    <title>Connexion - ItonSN</title>
-</head>
-
-<body class="dark">
+    <link rel="stylesheet" href="../../src/css/global/themes.css">
+    <link rel="stylesheet" href="../../src/css/pc/member/register.css">
+  </head>
+  <body class="dark">
     <main>
       <form action="" method="post">
-          <p id="title">Connectez-vous :</p>
+          <p id="title">Inscrivez-vous :</p>
 
           <div class="separation"></div>
 
-          <!-- <label for="email">Adresse mail</label> -->
+          <input type="text" name="pseudo" placeholder="Pseudonyme" required>
           <input type="email" name="email" id="email-i" placeholder="Adresse mail" required>
-
-          <!-- <label for="password">Mot-de-passe</label> -->
           <input type="password" name="password" id="password-i" placeholder="Mot-de-passe" required>
+          <label for="birthday">Date de naissance</label> <input type="date" name="birthday" required>
 
           <input type="submit" name="login" id="login-b" value="Connexion">
 
           <div class="separation"></div>
 
-          <a href="/pass_forgot">Mot-de-passe oublié ?</a>
-          <a href="register.html">Nouveau(elle) sur Iton ?</a>
+          <a href="login.html">Vous avez un compte ? Connexion</a>
 
           <p style="color: red" id="error"></p>
         </form>
 
         <img src="../../src/assets/logo.png" alt="Logo d'Iton" id="logo">
     </main>
-</body>
-
+  </body>
 </html>
