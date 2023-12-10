@@ -11,94 +11,96 @@
   font-family: 'Comic Sans MS';
 }
 
-main {
-  width: 80%;
-  height: 80%;
+@media screen and (min-width: 1100px) and (min-height: 600px) {
+  main {
+    width: 80%;
+    height: 80%;
 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-}
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
 
-.separation {
-  height: 1px;
-  width: 95%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  .separation {
+    height: 1px;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
-  background: linear-gradient(90deg, rgba(243,243,243,1) 0%, rgba(215,215,215,1) 100%);
-}
+    background: linear-gradient(90deg, rgba(243,243,243,1) 0%, rgba(215,215,215,1) 100%);
+  }
 
-form {
-  width: 45%;
-  height: 90%;
+  form {
+    width: 45%;
+    height: 90%;
 
-  padding: 15px;
+    padding: 15px;
 
-  background: var(--gradient);
+    background: var(--gradient);
 
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 
-  border-radius: 15px;
-}
+    border-radius: 15px;
+  }
 
-#title {
-  margin-bottom: 0;
-  color: #1F2F8C;
-  font-size: 20px;
-}
+  #title {
+    margin-bottom: 0;
+    color: #1F2F8C;
+    font-size: 20px;
+  }
 
-input {
-  width: 80%;
-  height: 40px;
+  input {
+    width: 80%;
+    height: 40px;
 
-  margin: 7.5px;
+    margin: 7.5px;
 
-  border: solid 2px #36E864 /* #6feaa3 */;
-  border-radius: 15px;
+    border: solid 2px #36E864 /* #6feaa3 */;
+    border-radius: 15px;
 
-  background: rgba(239, 239, 239, .6);
+    background: rgba(239, 239, 239, .6);
 
-  color: black;
+    color: black;
 
-  outline: none;
-}
+    outline: none;
+  }
 
-label {
-  margin-top: 2px;
-  margin-bottom: 2px;
-  color: #1F2F8C;
-}
+  label {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #1F2F8C;
+  }
 
-::placeholder {
-  color: #232323;
-}
+  ::placeholder {
+    color: #232323;
+  }
 
-#login-b {
-  border: solid 2px #229cc8;
-  cursor: pointer;
-  transition: .5s;
-}
+  #login-b {
+    border: solid 2px #229cc8;
+    cursor: pointer;
+    transition: .5s;
+  }
 
-#login-b:hover {
-  background: rgb(239, 239, 239);
-}
+  #login-b:hover {
+    background: rgb(239, 239, 239);
+  }
 
-a {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  a {
+    margin-top: 5px;
+    margin-bottom: 5px;
 
-  font-size: 18px;
-}
+    font-size: 18px;
+  }
 
-img {
-  height: 90%;
+  img {
+    height: 90%;
+  }
 }
