@@ -1,14 +1,33 @@
 :root {
-    --start-gradient: #35F47C;
-    --end-gradient: #2092D2;
-    --gradient: linear-gradient(to right, var(--start-gradient), var(--end-gradient));
-    --degradient: linear-gradient(to left, var(--start-gradient), var(--end-gradient));
-    --transparent-bg: rgba(155, 155, 155, 0.5);
-    --border: #3098c7;
+  --start-gradient: #35f47b;
+  --end-gradient: #2092D2;
+  --gradient: linear-gradient(to right, var(--start-gradient), var(--end-gradient));
+  --degradient: linear-gradient(to left, var(--start-gradient), var(--end-gradient));
 
-    --gradient-from-black: linear-gradient(to right, #388154, #2cf276);
+  --gradient-vertical: linear-gradient(to bottom, var(--start-gradient), var(--end-gradient));
+
+  --transparent-bg: rgba(155, 155, 155, 0.5);
+  --border: #3098c7;
+
+  --gradient-from-black: linear-gradient(to right, #388154, #2cf276);
 }
 
 * {
-  font-family: 'Comic Sans MS';
+font-family: 'Comic Sans MS';
+}
+
+/* width */
+::-webkit-scrollbar {
+width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: rgba(255,255,255,0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background: var(--gradient-vertical);
 }
