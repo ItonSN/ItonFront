@@ -1,0 +1,14 @@
+:root {
+    --start-gradient: #35F47C;
+    --end-gradient: #2092D2;
+    --gradient: linear-gradient(to right, var(--start-gradient), var(--end-gradient));
+    --degradient: linear-gradient(to left, var(--start-gradient), var(--end-gradient));
+    --transparent-bg: rgba(155, 155, 155, 0.5);
+    --border: #3098c7;
+
+    --gradient-from-black: linear-gradient(to right, #388154, #2cf276);
+}
+
+* {
+  font-family: 'Comic Sans MS';
+}
