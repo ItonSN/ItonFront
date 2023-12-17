@@ -1,5 +1,5 @@
 :root {
-  --start-gradient: #35f47b;
+  --start-gradient: #35f47c;
   --end-gradient: #2092D2;
   --gradient: linear-gradient(to right, var(--start-gradient), var(--end-gradient));
   --degradient: linear-gradient(to left, var(--start-gradient), var(--end-gradient));
